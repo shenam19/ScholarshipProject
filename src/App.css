@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+* {
+  max-width: 100%;
+}
+/* CtaScholorships */
+.container {
+  display: grid;
+  grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr);
+  grid-gap: 20px;
+}
+.hr-lines:before {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 60px;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  background: black;
+}
+.hr-lines,
+.hr-blogs,
+.name-lines {
+  position: relative;
+}
+.hr-blogs:before {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 50px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  background: black;
+}
+.name-lines:before {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 20px;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  background: white;
+}
+
+/* blogs */
+
+.blog_container {
+}
