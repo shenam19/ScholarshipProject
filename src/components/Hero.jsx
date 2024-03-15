@@ -1,6 +1,6 @@
 import React from "react";
-import dalai_lama from "/Users/tenzinkalden/Desktop/Scholar/ScholarshipProject/src/dalai_lama.png"
-import cloud from "/Users/tenzinkalden/Desktop/Scholar/ScholarshipProject/src/tibetan_cloud.png"
+import dalai_lama from "/Users/tenzinpalgyal/Desktop/ScholarshipProject/frontend/src/dalai_lama.png"
+import cloud from "/Users/tenzinpalgyal/Desktop/ScholarshipProject/frontend/src/tibetan_cloud.png"
 
 const Hero = () => {
   return (

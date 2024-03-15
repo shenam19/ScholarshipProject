@@ -1,7 +1,7 @@
 import React from "react";
-import cloud from "/Users/tenzinkalden/Desktop/Scholar/ScholarshipProject/src/tibetan_cloud.png"
+import cloud from "/Users/tenzinpalgyal/Desktop/ScholarshipProject/frontend/src/tibetan_cloud.png"
 import Hero from "./Hero";
-import scholar from "/Users/tenzinkalden/Desktop/Scholar/ScholarshipProject/src/scholar.png"
+import scholar from "/Users/tenzinpalgyal/Desktop/ScholarshipProject/frontend/src/scholar.png"
 
 const ScholarshipBenifits = () => {
   return (
