@@ -12,7 +12,7 @@ const ScholarshipBenifits = () => {
           <hr/>
           <p>How scholarship helps you and other <br/> Tibetan students.</p>
         </div>
-        <p className="scholar_para">In this scholarship program, Our mission is to help Tibetan students overcome challenge of finding and applying for the right global scholarship and admission opportunities to achieve their study-aboard goals.</p>
+        <p className="scholar_para">In this scholarship program, Our mission is to help Tibetan <br/> students overcome challenge of finding and applying for the <br/> right global scholarship and admission opportunities to <br/> achieve their study-aboard goals.</p>
         <hr/>
       </div>
       <p className="scholar_smallpara">To getting familiar with some important programs, Click below to know more..</p>
