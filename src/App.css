@@ -5,35 +5,35 @@
   text-align: center;
 }
 
-.nav_main{
+.nav_main {
   display: flex;
   justify-content: space-between;
-  background-color:wheat;
+  background-color: wheat;
   margin-bottom: 100px;
 }
 
-.nav_list{
-display: flex;
-justify-content: space-between;
-margin-top: 20px;
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .nav_list > li {
-padding-left: 20px;
-height:104px;
-margin-right: 50px;
-padding-top: 25px;
+  padding-left: 20px;
+  height: 104px;
+  margin-right: 50px;
+  padding-top: 25px;
 }
 
-.kunzoe{
-height:104px;
-font-size: 40px;
-margin-left: 10px;
-padding-top: 25px;
+.kunzoe {
+  height: 104px;
+  font-size: 40px;
+  margin-left: 10px;
+  padding-top: 25px;
 }
 
-.contain{
-  background-color: #FE9B01;
+.contain {
+  background-color: #fe9b01;
   width: 1283px;
   height: 491px;
   top: 280px;
@@ -41,32 +41,32 @@ padding-top: 25px;
   border-radius: 40px;
   float: left;
 }
-.dalai_lama{
+.dalai_lama {
   top: 49px;
   left: 74px;
-  top:-376px;
-  left:-160px;
-  position:relative;
+  top: -376px;
+  left: -160px;
+  position: relative;
 }
 
-.cloud{
+.cloud {
   width: 348px;
   height: 204px;
   top: 223px;
   left: 875px;
   margin-left: 500px;
-  margin-top:0px;
-  position :absolute;
-  left:100px;
+  margin-top: 0px;
+  position: absolute;
+  left: 100px;
 }
 
-.name{
-  position:relative;
-  top:-570px;
-  left:850px;
+.name {
+  position: relative;
+  top: -570px;
+  left: 850px;
 }
 
-.con_words{
+.con_words {
   font-family: Avenir LT Pro;
   font-size: 30px;
   font-weight: 500;
@@ -79,20 +79,20 @@ padding-top: 25px;
   left: 650px;
   justify-content: center;
   position: relative;
-  top:100px;
-  left:600px;
+  top: 100px;
+  left: 600px;
 }
 
-.cloud2{
+.cloud2 {
   width: 167px;
   height: 110px;
   top: -610px;
   left: 1000px;
-  position:relative;
+  position: relative;
 }
 
-.name{
-  list-style:inside;
+.name {
+  list-style: inside;
   font-family: Avenir LT Pro;
   font-size: 20px;
   font-style: italic;
@@ -102,7 +102,7 @@ padding-top: 25px;
   text-align: left;
 }
 
-.cont_base{
+.cont_base {
   width: 1043px;
   height: 50px;
   top: 704px;
@@ -117,14 +117,14 @@ padding-top: 25px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
-  text-align:center;
-  position:absolute;
-  color: #FFFFFF;
-  background-color:#000000CC;
+  text-align: center;
+  position: absolute;
+  color: #ffffff;
+  background-color: #000000cc;
   padding-top: 10px;
 }
 
-.scholar_cloud{
+.scholar_cloud {
   width: 672px;
   height: 413px;
   top: 798px;
@@ -132,16 +132,16 @@ padding-top: 25px;
   opacity: 0.2;
 }
 
-.small > hr{
-  border: 2px solid #FDB714;
+.small > hr {
+  border: 2px solid #fdb714;
   width: 55px;
   position: absolute;
-  top:865px;
-  left:180px
+  top: 865px;
+  left: 180px;
 }
 
-.small > p{
-  color: #FDB714;
+.small > p {
+  color: #fdb714;
   font-family: Avenir LT Pro;
   font-size: 30px;
   font-weight: 500;
@@ -149,12 +149,12 @@ padding-top: 25px;
   letter-spacing: 0em;
   text-align: left;
   position: absolute;
-  top:850px;
+  top: 850px;
   left: 250px;
 }
 
-.scholar_para{
-  color: #000000CC;
+.scholar_para {
+  color: #000000cc;
   font-family: Avenir LT Pro;
   font-size: 40px;
   font-weight: 500;
@@ -170,15 +170,15 @@ padding-top: 25px;
   top: 920px;
 }
 
-.scholar_inner > hr{
-  border: 2px solid #FDB714;
+.scholar_inner > hr {
+  border: 2px solid #fdb714;
   width: 1140px;
   position: relative;
   top: -30px;
   right: -50px;
 }
 
-.scholar_smallpara{
+.scholar_smallpara {
   color: #00000080;
   font-family: Avenir LT Pro;
   font-size: 15px;
@@ -192,7 +192,7 @@ padding-top: 25px;
   right: 480px;
 }
 
-.scholar_button{
+.scholar_button {
   background-color: #127002;
   width: 1140px;
   height: 84px;
@@ -201,11 +201,11 @@ padding-top: 25px;
   border-radius: 40px;
   color: white;
   margin-bottom: 80px;
-  position:relative;
+  position: relative;
   top: 40px;
 }
 
-.scholar_button > button{
+.scholar_button > button {
   font-family: Avenir LT Pro;
   font-size: 24px;
   font-weight: 750;
@@ -219,9 +219,9 @@ padding-top: 25px;
   padding-top: 25px;
 }
 
-.black{
-  background-color: #000000CC;
-  color: #FFFFFF;
+.black {
+  background-color: #000000cc;
+  color: #ffffff;
   width: 1140px;
   height: 43px;
   left: 50px;
@@ -230,7 +230,7 @@ padding-top: 25px;
   padding-top: 10px;
 }
 
-.scholar_img{
+.scholar_img {
   width: 1140px;
   height: 333px;
   /* top: 1404px; */
@@ -321,4 +321,11 @@ padding-top: 25px;
 /* blogs */
 
 .blog_container {
+}
+/* DalaiLamaTrust page */
+.text_maroon {
+  color: #b15d5d;
+}
+.text_yellow {
+  color: #fdb714;
 }

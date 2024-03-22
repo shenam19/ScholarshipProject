@@ -8,6 +8,7 @@ import AdmissionGuidence from "./components/AdmissionGuidence";
 import Footer from "./components/Footer";
 
 import "./App.css";
+import DalaiLamaTrustScholarship from "./components/DalaiLamaTrustScholarship";
 
 function App() {
   return (
@@ -20,7 +21,6 @@ function App() {
       <Blogs />
       <AdmissionGuidence />
       <Footer />
-      
     </>
   );
 }
