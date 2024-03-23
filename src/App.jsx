@@ -20,6 +20,7 @@ function App() {
       <CTAScholarships />
       <Blogs />
       <AdmissionGuidence />
+      {/* <DalaiLamaTrustScholarship /> */}
       <Footer />
     </>
   );

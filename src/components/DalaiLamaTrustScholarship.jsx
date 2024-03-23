@@ -1,14 +1,23 @@
 import React from "react";
-
 const DalaiLamaTrustScholarship = () => {
   return (
     <>
       <div className="text-left">
+        <div className="block flex justify-center mb-6 items-center gap-4 ">
+          <img
+            src="/cloud.png"
+            alt="cloud"
+            className="w-48 h-32 rotate-[240deg]"
+          />
+          <img src="/logo.png" alt="logo" className="w-44 h-44 " />
+          <img src="/cloud.png" alt="cloud" className="w-48 h-32" />
+        </div>
+
         <div className="header">
           <h1 className="text-3xl font-bold text-center text-[#B15D5D] mb-4">
             THE DALAI LAMA TRUST SCHOLARSHIP 2023
           </h1>
-          <p className=" mb-4">
+          <p className=" mb-4 tracking-wide">
             The Dalai Lama Trust is delighted to announce ‘
             <span className="text_maroon ">
               The Dalai Lama Trust Scholarship
@@ -24,35 +33,37 @@ const DalaiLamaTrustScholarship = () => {
           </p>
         </div>
         <div className="middle flex mb-10">
-          <div className="types uppercase  text-3xl uppercase text_yellow  pr-10 mr-10 border-r-2 flex flex-col items-center border-[#FDB714]">
+          <div className="types uppercase  text-3xl uppercase text_yellow  pr-10 mr-10 border-r-2 flex flex-col items-center border-[#FDB714] tracking-wide">
             <h1 className="font-bold text-5xl underline mb-3">types of </h1>
             <h2>scholarships</h2>
           </div>
           <div className="sideText">
             <h2 className="text-xl">A. UNDERGRADUATE SCHOLARSHIPS</h2>
-            <p className="ml-6">
+            <p className="ml-6 tracking-wider mb-2">
               100 scholarships for the Undergraduate or Diploma Program of
               minimum 3 years.
             </p>
             <h2 className="text-xl">B. POSTGRADUATE SCHOLARSHIPS</h2>
-            <p className="ml-6">5 scholarships to the Postgraduate Program.</p>
+            <p className="ml-6 tracking-wider">
+              5 scholarships to the Postgraduate Program.
+            </p>
           </div>
         </div>
         <div className="end">
-          <h1 className="font-bold uppercase text-center text_yellow underline  ">
+          <h1 className="font-bold uppercase text-center text_yellow underline text-2xl mb-2  ">
             deadlines
           </h1>
-          <p className="text-center mb-10">
+          <p className="text-center mb-10 tracking-wider">
             Eligible candidates must apply online by May 31st, 2023 for
             Undergraduate scholarship and June 30th, which has been <br />{" "}
             extended to August 31st, 2023 for Postgraduate scholarship.
             Applications received after the deadline and incomplete <br />{" "}
             application and/or documentation will be disqualified. 
           </p>
-          <h1 className="text-2xl uppercase font-bold underline text_yellow ">
+          <h1 className="text-2xl uppercase font-bold underline text_yellow mb-2 ">
             documents you needed
           </h1>
-          <h2>Undergraduate Scholarship</h2>
+          <h2 className="font-bold">Undergraduate Scholarship</h2>
           <p> A. GB (front and back)</p>
           <p> B. RC</p>
           <p> C. Class X Mark sheet</p>
@@ -60,14 +71,14 @@ const DalaiLamaTrustScholarship = () => {
           <p>E. Best Boy/Girl Certificate if applicable.</p>
           <p> F. Passport photo</p>
           <p> G.  Duly filled “Form-A” and/or “Form-B” where required</p>
-          <p className="my-2">
+          <p className="my-2 tracking-wide">
             {" "}
             Please compile all documents except passport photo into a single PDF
             file. Please check our{" "}
             <span className="text_maroon">sample document file</span>  for the
             required format.
           </p>
-          <h2>Postgraduate Scholarship</h2>
+          <h2 className="font-bold">Postgraduate Scholarship</h2>
           <p>A. GB (front and back)</p>
           <p>B. RC</p>
           <p>
@@ -81,7 +92,7 @@ const DalaiLamaTrustScholarship = () => {
           <p>E. Internship completion certificate where applicable</p>
           <p>F. Passport photo</p>
 
-          <p className="my-2">
+          <p className="my-2 tracking-wide">
             Please compile all documents except passport photo into a single PDF
             file. Please check our{" "}
             <span className="text_maroon">sample document file</span>  for the
