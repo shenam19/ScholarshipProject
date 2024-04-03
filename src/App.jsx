@@ -9,18 +9,21 @@ import Footer from "./components/Footer";
 
 import "./App.css";
 import DalaiLamaTrustScholarship from "./components/DalaiLamaTrustScholarship";
+import Garden from "./components/Garden";
 
 function App() {
   return (
     <>
-      <Navbar />
+       <Navbar />
+       {/*
       <Hero />
       <ScholarshipBenifits />
       <ScholarshipTypes />
       <CTAScholarships />
       <Blogs />
-      <AdmissionGuidence />
+      <AdmissionGuidence /> */}
       {/* <DalaiLamaTrustScholarship /> */}
+      <Garden/>
       <Footer />
     </>
   );
