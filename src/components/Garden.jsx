@@ -1,5 +1,6 @@
 import React from 'react';
-import gardenlogo from "/public/garden.png";
+import gardenlogo from "/garden.png";
+import { Link } from 'react-router-dom';
 
 const Garden = () => {
   return (
@@ -36,11 +37,11 @@ const Garden = () => {
         </ol>
       </div>
 
-      <div className=' flex gap-5 justify-center m-5'> 
-        <button className=' p-4 bg-[#FDB714] rounded-xl'>➡️ Apply now for the Scholarship 2024/25</button>
-
-        <button className=' p-4 border border-[#FDB714] rounded-xl'>visit dalai lama foundation website for more info</button> 
-      </div>
+      <div className='flex gap-5 justify-center m-5'> 
+        <a className='p-4 bg-[#FDB714] rounded-xl cursor-pointer' to={''}>➡️ Apply now for the Scholarship 2024/25</a>
+        <a className='p-4 border border-[#FDB714] rounded-xl cursor-pointer'>visit dalai lama foundation website for more info</a> 
+        
+      </div> 
      
     </div>
   );

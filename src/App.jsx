@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import "./App.css";
 import DalaiLamaTrustScholarship from "./components/DalaiLamaTrustScholarship";
 import Garden from "./components/Garden";
+import Tcv from "./components/Tcv";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       <Blogs />
       <AdmissionGuidence /> */}
       {/* <DalaiLamaTrustScholarship /> */}
-      <Garden/>
+      {/* <Garden/> */}
+      <Tcv/>
       <Footer />
     </>
   );
